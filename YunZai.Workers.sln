@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YunZai.Workers.AspireApp.AppHost", "src\YunZai.Workers.AspireApp\YunZai.Workers.AspireApp.AppHost\YunZai.Workers.AspireApp.AppHost.csproj", "{1FB01B40-C5C2-4C60-A95F-808B57AB3AA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YunZai.Workers.AspireApp.ServiceDefaults", "src\YunZai.Workers.AspireApp\YunZai.Workers.AspireApp.ServiceDefaults\YunZai.Workers.AspireApp.ServiceDefaults.csproj", "{51CE4402-3A93-43E7-B87C-FE659A4C4ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YunZai.Workers.AspireApp.ApiService", "src\YunZai.Workers.AspireApp\YunZai.Workers.AspireApp.ApiService\YunZai.Workers.AspireApp.ApiService.csproj", "{3961EB56-9F2C-42CD-A6E7-9B0199A705E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YunZai.Workers.AspireApp.Web", "src\YunZai.Workers.AspireApp\YunZai.Workers.AspireApp.Web\YunZai.Workers.AspireApp.Web.csproj", "{3C93E567-1424-4B86-B668-2F3339EBB817}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YunZai.Workers.AspireApp.Tests", "src\YunZai.Workers.AspireApp\YunZai.Workers.AspireApp.Tests\YunZai.Workers.AspireApp.Tests.csproj", "{1430ADBA-D44C-456D-A836-30D7623602B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YunZai.Workers.AspireApp.Unsplash", "src\YunZai.Workers.AspireApp.Unsplash\YunZai.Workers.AspireApp.Unsplash.csproj", "{B63D16B8-0AF0-4EB7-9C1F-52844AE0EF00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FB01B40-C5C2-4C60-A95F-808B57AB3AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FB01B40-C5C2-4C60-A95F-808B57AB3AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FB01B40-C5C2-4C60-A95F-808B57AB3AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FB01B40-C5C2-4C60-A95F-808B57AB3AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51CE4402-3A93-43E7-B87C-FE659A4C4ABC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51CE4402-3A93-43E7-B87C-FE659A4C4ABC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51CE4402-3A93-43E7-B87C-FE659A4C4ABC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51CE4402-3A93-43E7-B87C-FE659A4C4ABC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3961EB56-9F2C-42CD-A6E7-9B0199A705E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3961EB56-9F2C-42CD-A6E7-9B0199A705E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3961EB56-9F2C-42CD-A6E7-9B0199A705E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3961EB56-9F2C-42CD-A6E7-9B0199A705E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C93E567-1424-4B86-B668-2F3339EBB817}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C93E567-1424-4B86-B668-2F3339EBB817}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C93E567-1424-4B86-B668-2F3339EBB817}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C93E567-1424-4B86-B668-2F3339EBB817}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1430ADBA-D44C-456D-A836-30D7623602B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1430ADBA-D44C-456D-A836-30D7623602B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1430ADBA-D44C-456D-A836-30D7623602B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1430ADBA-D44C-456D-A836-30D7623602B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63D16B8-0AF0-4EB7-9C1F-52844AE0EF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63D16B8-0AF0-4EB7-9C1F-52844AE0EF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63D16B8-0AF0-4EB7-9C1F-52844AE0EF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63D16B8-0AF0-4EB7-9C1F-52844AE0EF00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

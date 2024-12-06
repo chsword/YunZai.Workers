@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.0.0" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>1bfa08ac-a780-4ca2-826e-51ef17abd618</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\YunZai.Workers.AspireApp.Unsplash\YunZai.Workers.AspireApp.Unsplash.csproj" />
+    <ProjectReference Include="..\YunZai.Workers.AspireApp.ApiService\YunZai.Workers.AspireApp.ApiService.csproj" />
+    <ProjectReference Include="..\YunZai.Workers.AspireApp.Web\YunZai.Workers.AspireApp.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
