@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\YunZai.Workers.AspireApp.Unsplash\YunZai.Workers.AspireApp.Unsplash.csproj" />
     <ProjectReference Include="..\YunZai.Workers.AspireApp.AppHost\YunZai.Workers.AspireApp.AppHost.csproj" />
   </ItemGroup>
 
