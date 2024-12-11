@@ -1,8 +1,3 @@
-using System.IO.Compression;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Text;
-using System.Text.Json;
 using YunZai.Workers.AspireApp.Unsplash.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,7 +21,7 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-app.MapGet("/image/{keyword}/{width:int}/{height:int}", async (string keyword, int width, int height) =>
+app.MapGet("/image/{keyword}/{width:int}-{height:int}.jpg", async (string keyword, int width, int height) =>
     {
         //get UnsplashService
         var unsplashService = app.Services.GetRequiredService<UnsplashService>();
