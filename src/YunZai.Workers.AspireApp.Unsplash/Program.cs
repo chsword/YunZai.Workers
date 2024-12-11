@@ -37,7 +37,8 @@ app.MapGet("/image/{keyword}/{width:int}/{height:int}", async (string keyword, i
         imageUrl = $"{imageUrl}&w={width}&h={height}";
         var client = new HttpClient();
         var response = await client.GetByteArrayAsync(imageUrl);
-        return Results.Bytes(response, "image/jpeg", $"image_{keyword}.jpg");
+        //return Results.Bytes(response, "image/jpeg", $"image_{keyword}.jpg");
+        return Results.File(response, "image/jpeg");
 
     })
     .WithName("unsplashImage");
